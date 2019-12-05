@@ -1,0 +1,23 @@
+TicTacToe
+
+Rules
+
+1. Display empty board 
+2. Player goes
+3. Display board !Maybe skip this step and only display after both go
+4. Check to see if there is a winner 
+ - if there is a winner, congratulate and ask if the user wants to play again
+   - if yes head to step 1 and clear board
+   - if no say goodbye and end program  
+ - else no winner continue on
+5. Computer goes
+6. Display board
+7. Check to see if there is a winner
+ - if winner. Computer wins and ask user if they would like to play again
+   - if yes head to step 1 and clear board
+ - elsif check if board is full 
+   - TIE
+   - ask user if they want to play again
+     - if yes head to step 1
+     - if no say goodbye and end program  
+ - else board is not full, go back to step 2
